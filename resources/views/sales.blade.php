@@ -44,4 +44,5 @@
         <td>this is description</td>
     </tr>
 </table>
+<h1>Sales Actions Successfully Added</h1>
 @endsection
