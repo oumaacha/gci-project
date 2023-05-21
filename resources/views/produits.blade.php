@@ -30,6 +30,7 @@
             <th scope="col">Prix</th>
             <th scope="col">Quantité</th>
             <th scope="col">Opérations</th>
+            <th scope="col">Date</th>
         </tr>
         </thead>
         <tbody>
@@ -44,6 +45,7 @@
                     <button value="{{$produit->id}}" class="btn btn-sm btn-danger deletebtn" data-bs-toggle="modal" data-bs-target="#deletemodal">Supprimer</button>
                     <a href="{{route('modifierproduitform',['id'=>$produit->id])}}" class="btn btn-sm btn-warning">Modifier</a>
                 </td>
+                <td>Date added</td>
             </tr>
         @endforeach
         </tbody>
